@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace composicao01Resolvido.Entities.Enums
 {
-    internal class WorkerLevel
+    internal enum WorkerLevel
     {
+        Junior = 0,
+        MidLevel = 1,
+        Senior = 2
     }
 }
